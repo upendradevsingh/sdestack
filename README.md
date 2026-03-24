@@ -24,8 +24,8 @@ Adding a new language? See [GENERATION-GUIDE.md](GENERATION-GUIDE.md).
 ## Install
 
 ```bash
-git clone https://github.com/upendradevsingh/claude-skills.git
-cd claude-skills
+git clone https://github.com/upendradevsingh/sdestack.git
+cd sdestack
 chmod +x install.sh
 ./install.sh
 ```
@@ -35,7 +35,7 @@ This symlinks skills into `~/.claude/skills/` so Claude Code picks them up globa
 ## Update
 
 ```bash
-cd claude-skills
+cd sdestack
 git pull
 # Symlinks auto-update — no reinstall needed
 ```
@@ -43,7 +43,7 @@ git pull
 ## Uninstall
 
 ```bash
-cd claude-skills
+cd sdestack
 ./uninstall.sh
 ```
 
@@ -53,8 +53,8 @@ The `install.sh` script creates symlinks from `~/.claude/skills/<skill-name>` to
 
 ```
 ~/.claude/skills/
-    write-effective-tests -> /path/to/claude-skills/skills/write-effective-tests/
-    review-tests -> /path/to/claude-skills/skills/review-tests/
+    write-effective-tests -> /path/to/sdestack/skills/write-effective-tests/
+    review-tests -> /path/to/sdestack/skills/review-tests/
 ```
 
 ## Adding a New Skill
